@@ -16,8 +16,12 @@
         header {
             background: #333;
             color: #fff;
-            padding: 10px 20px;
             text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
         }
         .container {
             max-width: 800px;
@@ -25,18 +29,21 @@
             padding: 20px;
             background: #fff;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
-        h1, h3 {
+        .profile-picture {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-picture img {
+            border-radius: 50%;
+            max-width: 200px;
+        }
+        h3 {
             color: #444;
         }
         p {
             margin: 10px 0;
-        }
-        img {
-            display: block;
-            margin: 0 auto 20px;
-            max-width: 100%;
         }
         a {
             color: #007BFF;
@@ -57,34 +64,22 @@
 <body>
     <header>
         <h1>Mario Sucerquia</h1>
+        <p>Astrophysicist | Planetary Sciences Researcher</p>
     </header>
     <div class="container">
-        <p><img src="https://nicolascuello.github.io/Stellar-MADE/images/picture-MS.png" alt="Mario Sucerquia" width="300"></p>
-
+        <div class="profile-picture">
+            <img src="https://nicolascuello.github.io/Stellar-MADE/images/picture-MS.png" alt="Mario Sucerquia">
+        </div>
         <h3>Summary of my career</h3>
         <p>I am an astrophysicist with a particular interest in planetary sciences. I am currently a postdoctoral researcher at the Institut de Planétologie et d’Astrophysique de Grenoble (IPAG), part of the University of Grenoble Alpes, and a member of the stellar-MADE team.</p>
-
         <p>I received my Ph.D. from Universidad de Antioquia in Colombia in 2019, after earning my Master’s degree in physics in 2016. These degrees laid the foundation for my research career, providing me with a comprehensive understanding of the complex theories and principles that govern our universe.</p>
-
-        <p>My current research focuses on the dynamic stability of moons and rings in complex systems, such as those with multiple star systems. This shift from my previous work on exomoons and exorings, which are moons and rings that orbit planets outside our solar system, allows me to explore even more intricate celestial mechanics and interactions.</p>
-
-        <p>Although exomoons and exorings are yet to be discovered, they remain crucial missing elements in our understanding of exoplanetary systems. My research aims to investigate their formation, evolution, behavior, and potential for detection within these multifaceted environments.</p>
-
-        <p>Driven by the challenge of unraveling the mysteries of these celestial bodies, I am dedicated to advancing our knowledge of planetary systems. My research often incorporates a great deal of creativity and cultural references. For example, with my colleagues, we have created and developed concepts such as ploonets and cronomoons. Ploonets are moons that emancipate from their host planet to become new planets in the system, while cronomoons are moons that possess rings similar to those of Saturn. These ideas have contributed to explaining the absence of exomoons and reinterpreting the anomalous signals associated with possible giant moons.</p>
-
-        <p>I am also passionate about science communication and enjoy sharing my research and the wonders of the universe with a broader audience.</p>
-
-        <p>Beyond my professional pursuits, I have a deep appreciation for nature, a keen interest in history, and a passion for coffee. These interests enrich my life and provide a broader context for understanding the world and the cosmos.</p>
-
-        <h3>Ongoing research</h3>
-        <p>I am currently studying the stability of planets and their companion moons and rings in multiple star systems. The goal is to determine if these bodies are detectable and what observational signals they produce. My research focuses on evaluating their detectability using different methods, such as radial velocity, transits, and astrometry.</p>
-
-        <p>Additionally, I am interested in modelling the light curves of transits and the scattered light from these astrophysical objects. This work is crucial for interpreting observational signals and enhancing our understanding of the dynamics and characteristics of these complex systems.</p>
-
-        <h3>Recent highlight</h3>
-        <p>My recent papers focused on the potential planets in the nearest triple star system to the sun: <a href="https://www.mdpi.com/2218-1997/10/2/64">Alpha Centauri. These works include “Disc Dynamics, Planet Stability, Detectability”</a> and the possibility of interpreting light curves of hypothetical exomoons as cronomoons: <a href="https://academic.oup.com/mnras/article/512/1/1032/6461099">“Cronomoons: Origin, Dynamics, and Light-Curve Features of Ringed Exomoons.”</a></p>
-
-        <p><a href="https://nicolascuello.github.io/Stellar-MADE/">Back to home page</a></p>
+        <h3>Ongoing Research</h3>
+        <p>My current research focuses on the dynamic stability of moons and rings in complex systems, such as those with multiple star systems. I also explore the potential detection methods for these celestial objects using techniques like radial velocity, transits, and astrometry.</p>
+        <h3>Recent Highlight</h3>
+        <p>My recent papers focused on the potential planets in the nearest triple star system to the Sun: <a href="https://www.mdpi.com/2218-1997/10/2/64">Alpha Centauri</a>. Additionally, I have explored light-curve features of hypothetical exomoons as cronomoons in: <a href="https://academic.oup.com/mnras/article/512/1/1032/6461099">Cronomoons: Origin, Dynamics, and Light-Curve Features of Ringed Exomoons</a>.</p>
     </div>
+    <footer>
+        <p>Maintained by <a href="https://github.com/nicolascuello">Nicolás Cuello</a>. Powered by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+    </footer>
 </body>
 </html>
